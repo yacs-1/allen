@@ -11,9 +11,37 @@ body {
   text-align: center;
   font-size:300%;
   color:black;
-  text-shadow:#567BA7 2px 2px;
+  text-shadow:#FB0023 2px 2px;
   
 }
 h2.heading{
   font-size:200%;
+}
+.bordered{
+  border-style: solid;
+  border-color: #FF0000;
+  border-width:3px;
+  padding:7px;
+  border-radius:9px;
+  margin:5px;
+  background-color:#F6D6FA;
+  color:#555555;
+}
+a {
+  text-decoration: none;
+  font-weight:bold;
+  color:#FF0000;
+}
+a:hover, a:visited {
+  color:#F35AFA;
+}
+hr {
+  height:2px;
+  border:0px;
+  background-color:#F35AFA;
+}
+#footer {
+  font-size:x-large;
+  text-align:center;
+  
 }
