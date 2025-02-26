@@ -19,12 +19,12 @@ h2.heading{
 }
 .bordered{
   border-style: solid;
-  border-color: #FF0000;
+  border-color:#BBEB52;
   border-width:3px;
   padding:7px;
   border-radius:9px;
   margin:5px;
-  background-color:#F8D6BA;
+  background-color:#49EB5D;
   color:white;
 }
 a {
@@ -38,7 +38,7 @@ a:hover, a:visited {
 hr {
   height:2px;
   border:0px;
-  background-color:#F35AFA;
+  background-color:#BBEB52;
 }
 #footer {
   font-size:x-large;
