@@ -9,13 +9,13 @@ body {
 .heading{
   font-family:'Arsenal SC',cursive;
   text-align: center;
-  font-size:300%;
+  font-size:200%;
   color:white;
-  text-shadow:#FB0023 2px 2px;
+  text-shadow:#BBEB52 2px 2px;
   
 }
 h2.heading{
-  font-size:200%;
+  font-size:100%;
 }
 .bordered{
   border-style: solid;
