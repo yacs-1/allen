@@ -1,6 +1,6 @@
 body {
-  background-color:#FEB4B1;
-  color:black;
+  background-color:#49EB5D;
+  color:white;
   text-align:left;
   font-family:'Baskervville SC';
   margin-left:10%;
@@ -10,7 +10,7 @@ body {
   font-family:'Arsenal SC',cursive;
   text-align: center;
   font-size:300%;
-  color:black;
+  color:white;
   text-shadow:#FB0023 2px 2px;
   
 }
@@ -25,15 +25,15 @@ h2.heading{
   border-radius:9px;
   margin:5px;
   background-color:#F8D6BA;
-  color:#555555;
+  color:white;
 }
 a {
   text-decoration: none;
   font-weight:bold;
-  color:#FF0000;
+  color:white;
 }
 a:hover, a:visited {
-  color:#F35AFA;
+  color:white;
 }
 hr {
   height:2px;
