@@ -9,9 +9,9 @@ body {
 .heading{
   font-family:'Arsenal SC',cursive;
   text-align: center;
-  font-size:200%;
+  font-size:300%;
   color:white;
-  text-shadow:#BBEB52 2px 2px;
+  text-shadow:#BBEB52 3px 3px;
   
 }
 h2.heading{
@@ -20,7 +20,7 @@ h2.heading{
 .bordered{
   border-style: solid;
   border-color:#BBEB52;
-  border-width:3px;
+  border-width:4px;
   padding:7px;
   border-radius:9px;
   margin:5px;
