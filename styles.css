@@ -44,5 +44,11 @@ hr {
   font-size:x-large;
   text-align:center;
   color:black;
-  
+}
+#bg{
+  width:130vw;
+  z-index:-999;
+  position:fixed;
+  left:0px;
+  top:0px;
 }
