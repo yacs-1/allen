@@ -11,7 +11,7 @@ body {
   text-align: center;
   font-size:300%;
   color:white;
-  text-shadow:light blue 3px 3px;
+  text-shadow:#7FAF99 3px 3px;
   
 }
 h2.heading{
@@ -24,7 +24,7 @@ h2.heading{
   padding:7px;
   border-radius:9px;
   margin:5px;
-  background-color:#B1FEDB;
+  background-color:#98DABC;
   color:white;
 }
 a {
@@ -46,7 +46,8 @@ hr {
   color:black;
 }
 #bg{
-  width:130vw;
+  width: 100vw;
+  height:100vh;
   z-index:-999;
   position:fixed;
   left:0px;
