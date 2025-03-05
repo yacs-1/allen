@@ -1,5 +1,5 @@
 body {
-  background-color:#49EB5D;
+  background-color:#B1FEDB;
   color:white;
   text-align:left;
   font-family:'Baskervville SC';
@@ -19,12 +19,12 @@ h2.heading{
 }
 .bordered{
   border-style: solid;
-  border-color:indigo;
+  border-color:#B1FEDB;
   border-width:4px;
   padding:7px;
   border-radius:9px;
   margin:5px;
-  background-color:blue;
+  background-color:#B1FEDB;
   color:white;
 }
 a {
@@ -38,7 +38,7 @@ a:hover, a:visited {
 hr {
   height:2px;
   border:0px;
-  background-color:#BBEB52;
+  background-color:#B1FEDB;
 }
 .footer {
   font-size:x-large;
