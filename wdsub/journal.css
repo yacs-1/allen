@@ -1,7 +1,7 @@
 body{
   text-align:center;
   margin:0px;
-  font-famliy:sans-serif;
+  font-family:'Baskervville SC';
  
 }
 #preheader{
@@ -25,6 +25,7 @@ body{
   margin-right: 15%;
   padding: 5px 15px 5px;
   background-color: rgb(255, 255, 255,0.8);
+  font-family:'Baskervville SC';
 }
 hr{
     width: 50%;
