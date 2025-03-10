@@ -11,6 +11,7 @@ body{
   margin:0px;
   background-color:white;
   color:black;
+  font-family:'Arsenal SC',cursive;
   
 }
 .article{
@@ -42,6 +43,7 @@ hr{
   display:block;
   padding: 17px 200px 17px;
   margin-right: 0;
+ font-family:'Arsenal SC',cursive;
 }
 .navlink {
   text-decoration: none;
