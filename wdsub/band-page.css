@@ -1,20 +1,29 @@
 body{
   margin:0px;
+  background-color:#BDDECB;
 }
 #content, #album, #info{
   float:left;
 }
 #content{
-  border: solid 2px blue;
   width:50%;
+  padding:20px;
+  font-family:Winky Rough;
+}
+#banner{
+  width:100%;
+  height:300px;
 }
 #album{
-  border:solid 2px green;
-  width:30%;
+  width:100px;
+}
+#album-cover{
+  width:100%;
 }
 #info{
-  border:solid 2px pink;
-  max-width:20%
+  max-width:18%;
+  padding:20px;
+  font-family:Winky Rough;
 }
 #player button{
   float:left;
@@ -23,8 +32,31 @@ body{
  display:none;
 }
 #player audio::-webkit-media-controls-panel{
-  background-color:pink;
+  background-color:#BDDECB;
 }
 #player audio{
   height:1em;
+}
+#tracklist{
+  list-style-type:none;
+}
+.track-li{
+  font-size: 125%;
+  font-style: italic;
+  font-family:Baskervville SC;
+}
+.track-player::-webkit-media-controls-panel{
+ background-color:#BDDECB;
+}
+.track-player{
+  height:1em;
+}
+#info img{
+ max-width:80%; 
+ margin:auto;
+ display:block;
+}
+a{
+  color:navy;
+  text-decoration:none;
 }
