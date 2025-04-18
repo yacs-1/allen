@@ -3,6 +3,11 @@ body{
   font-family:Winky Rough;
   font-size:large;
 }
+p{
+  text-align:center;
+  font-size:xx-large;
+  color:red;
+}
 #to-do-list{
   list-style-type:none;
 }
@@ -25,4 +30,7 @@ body{
   position:fixed;
   left:0px;
   top:0px;
+}
+#input-group{
+  text-align:center;
 }
