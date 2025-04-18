@@ -1,0 +1,28 @@
+body{
+  margin:5;
+  font-family:Winky Rough;
+  font-size:large;
+}
+#to-do-list{
+  list-style-type:none;
+}
+#list-group{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#to-do-list svg{
+  position:relative;
+  top:0.7em;
+}
+#bg{
+  width: 100vw;
+  height:100vh;
+  z-index:-999;
+  position:fixed;
+  left:0px;
+  top:0px;
+}
