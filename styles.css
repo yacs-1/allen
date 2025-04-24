@@ -1,6 +1,6 @@
 body {
   background-color:#B1FEDB;
-  color:white;
+  color:black;
   text-align:left;
   font-family:'Baskervville SC';
   margin-left:10%;
@@ -52,4 +52,40 @@ hr {
   position:fixed;
   left:0px;
   top:0px;
+}
+#nav-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#nav-list ul{
+  display:inline-block;
+  list-style-type:none;
+  background-color:#98DABC;
+}
+#nav-list > li{
+  flex-grow:1;
+  flex-direction:row;
+  display:block;
+  position:relative;
+  text-align:center;
+  margin:auto;
+  
+}
+#nav-list ul {
+  display:none;
+  background-color:#98DABC;
+}
+#nav-list li:hover ul{
+  display:block;
+  color:black;
+}
+#nav-list li ul{
+  list-style-type:none;
+  padding:0px;
+  position:absolute;
+  width:100%
 }
