@@ -13,6 +13,10 @@ body{
   padding-bottom:5%;
 }
 
+.square:nth-child(3n) {
+  clear: both; /* Forces a new line after every 3 squares */
+}
+
 #winner{
   display:none;
   position:fixed;
