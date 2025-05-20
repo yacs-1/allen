@@ -6,7 +6,8 @@ body{
 .square{
   float:left;
   border:solid black 3px;
-  width:30vw;
+  width:30%;
+  height: 30%;
   font-size:300%;
   text-align:center;
   padding-top:5%;
