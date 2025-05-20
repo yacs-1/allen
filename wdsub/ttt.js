@@ -37,11 +37,11 @@ function checkComplete(){
        ) return true;
   }
   
-  if((squareArr[0].innerText == "X" || squareArr[0].innerText == "0")
+  if((squareArr[0].innerText == "X" || squareArr[0].innerText == "O")
     && squareArr[0].innerText == squareArr[4].innerText
     && squareArr[0].innerText == squareArr[8].innerText
     ) return true;
-  else if((squareArr[2].innerText == "X" || squareArr[2].innerText == "0")
+  else if((squareArr[2].innerText == "X" || squareArr[2].innerText == "O")
     && squareArr[2].innerText == squareArr[4].innerText
     && squareArr[2].innerText == squareArr[6].innerText
     ) return true;
