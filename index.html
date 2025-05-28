@@ -19,7 +19,7 @@
      <script>
       let urlParams = new URLSearchParams(window.location.search);
       if (urlParams.has("variable1")) {
-       let username = url.Params.get("variable1");
+       let username = urlParams.get("variable1");
        let userspan = document.getElementById("userspan");
        userspan.innerText = "," + username + ",";
       }
