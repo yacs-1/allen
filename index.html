@@ -13,9 +13,17 @@
    
    <img id="bg" src="/allen/resources/bg.png">
     <div class="bordered">
-   <h2 class="heading">welcome!🥳</h2>
+   <h2 class="heading">welcome!<span id="userspan"></span>🥳</h2>
    
    <br>
+     <script>
+      let urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has("variable1")) {
+       let username = url.Params.get("variable1");
+       let userspan = document.getElementById("userspan");
+       userspan.innerText = "," + username + ",";
+      }
+     </script>
     <div class="footer">
    <p>click <a href="mailto:nathanael.stamp@youngsvilleacademy.org?subject=Live%20code%20session%3AMililani%20Allen&cc=mililaniallen@gmail.com&body=Hey%20Mr.Stamp%20here%20is%20yet%20another%20live%20code%20session%3A%20" target="_blank">here</a> to submit live code session</p>
     </div>
